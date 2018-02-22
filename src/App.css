@@ -22,7 +22,50 @@
   font-size: large;
 }
 
+.SectionAbout {
+  /* background-color: red; */
+  background-image: url('./images/structure-light-led-movement-158826.jpeg');
+  background-size: cover;
+  height: 1000px;
+}
+
+.SectionSkills {
+  background-color: red;
+  background-size: cover;
+  height: 1000px;
+}
+
+.SectionProjects {
+  background-color: #ff1493;
+  background-size: cover;
+  height: 1000px;
+}
+
+.SectionContact {
+  background-color: pink;
+  background-size: cover;
+  height: 500px;
+}
+
+.Introduction {
+  padding-top: 200px;
+}
+
+#Name {
+  color: white;
+  font-size: 5em;
+}
+
+#Occupation {
+  color: white;
+  font-size: 3em;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
