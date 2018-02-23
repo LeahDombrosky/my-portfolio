@@ -24,7 +24,7 @@
 
 .SectionAbout {
   /* background-color: red; */
-  background-image: url('./images/structure-light-led-movement-158826.jpeg');
+  background-image: url('../images/structure-light-led-movement-158826.jpeg');
   background-size: cover;
   height: 1000px;
 }
@@ -36,13 +36,13 @@
 }
 
 .SectionProjects {
-  background-color: #ff1493;
+  background-color: pink;
   background-size: cover;
   height: 1000px;
 }
 
 .SectionContact {
-  background-color: pink;
+  background-color: #ff1493;
   background-size: cover;
   height: 500px;
 }
@@ -54,11 +54,30 @@
 #Name {
   color: white;
   font-size: 5em;
+  /* text-shadow: 10px 10px 25px black; */
+  text-shadow: 18px -8px 0px gray;
+}
+
+#Skills,
+#Projects,
+#Contact {
+  color: white;
+  font-size: 4em;
+  text-shadow: 10px 10px 25px black;
+  margin: 0;
+  padding-top: 50px;
 }
 
 #Occupation {
   color: white;
   font-size: 3em;
+}
+.Row {
+  display: flex;
+}
+img {
+  height: 160px;
+  width: 120px;
 }
 
 @keyframes App-logo-spin {
