@@ -72,12 +72,47 @@
   color: white;
   font-size: 3em;
 }
-.Row {
+.Row1,
+.Row2 {
   display: flex;
+  margin-top: 100px;
+  margin-left: 250px;
 }
 img {
-  height: 160px;
-  width: 120px;
+  height: 180px;
+  width: 140px;
+}
+.Javascript,
+.React,
+.Angular,
+.HTML,
+.CSS,
+.NodeJS,
+.SQL,
+.GitHub {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.Projects {
+  display: flex;
+}
+.LegantStore {
+  background-image: url('../images/CaptureStore.PNG');
+  height: 450px;
+  width: 720px;
+  margin: 20px;
+}
+
+.Groupii {
+  background-image: url('../images/CaptureGroupii.PNG');
+  height: 450px;
+  width: 720px;
+  margin: 20px;
 }
 
 @keyframes App-logo-spin {

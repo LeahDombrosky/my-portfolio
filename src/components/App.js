@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+// import { Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -24,7 +25,7 @@ class App extends Component {
           <div className="SectionSkills">
             <div className="Skills">
               <p id="Skills">SKILLS</p>
-              <div className="Row">
+              <div className="Row1">
                 <div className="Javascript">
                   <img
                     src="http://www.seas.upenn.edu/~cis197/images/logo.png"
@@ -53,6 +54,8 @@ class App extends Component {
                   />
                   <p>HTML</p>
                 </div>
+              </div>
+              <div className="Row2">
                 <div className="CSS">
                   <img
                     src="https://n6-img-fp.akamaized.net/free-icon/css-file-format-with-brackets_318-45223.jpg?size=338&ext=jpg"
@@ -74,12 +77,25 @@ class App extends Component {
                   />
                   <p>SQL</p>
                 </div>
+                <div className="GitHub">
+                  <img
+                    src="https://image.flaticon.com/icons/svg/25/25231.svg"
+                    alt="GitHub"
+                  />
+                  <p>GitHub</p>
+                </div>
               </div>
             </div>
           </div>
           <div className="SectionProjects">
+            <p id="Projects">PROJECTS</p>
             <div className="Projects">
-              <p id="Projects">PROJECTS</p>
+              <div className="LegantStore">
+                {/* <Link to="https://leah-elegant-store-spchmbivkx.now.sh/" />
+              </div> */}
+              <div className="Groupii">
+                {/* <img src="../images/CaptureGroupii.PNG" alt="GitHub" /> */}
+              </div>
             </div>
           </div>
           <div className="SectionContact">
