@@ -1,0 +1,22 @@
+.Nav-holder,
+ul {
+  /* color: white; */
+  /* background-color: rgb(226, 147, 177); */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding-left: 100px;
+  /* margin-left: 50px; */
+  /* font: 1.5em; */
+  font-size: 25px;
+  /* font-family: 'Satisfy', cursive; */
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}

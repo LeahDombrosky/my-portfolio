@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -11,15 +10,15 @@ class Navbar extends Component {
         <div className="Symbol-holder" />
         <div className="Nav-holder">
           <ul>
-            <Link to="/skills">
+            <a class="nav-link js-scroll-trigger" href="#skills">
               <li>SKILLS</li>
-            </Link>
-            <Link to="/projects">
+            </a>
+            <a class="nav-link js-scroll-trigger" href="#projects">
               <li>PROJECTS</li>
-            </Link>
-            <Link to="/contact">
+            </a>
+            <a class="nav-link js-scroll-trigger" href="#contact">
               <li>CONTACT ME</li>
-            </Link>
+            </a>
           </ul>
         </div>
       </div>
