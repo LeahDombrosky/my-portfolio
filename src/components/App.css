@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -23,7 +24,6 @@
 }
 
 .SectionAbout {
-  /* background-color: red; */
   background-image: url('../images/structure-light-led-movement-158826.jpeg');
   background-size: cover;
   height: 1000px;
@@ -38,13 +38,13 @@
 .SectionProjects {
   background-color: pink;
   background-size: cover;
-  height: 1000px;
+  height: 800px;
 }
 
 .SectionContact {
   background-color: #ff1493;
   background-size: cover;
-  height: 500px;
+  height: 800px;
 }
 
 .Introduction {
@@ -98,9 +98,23 @@ p {
   font-size: 28px;
   font-weight: bolder;
 }
+
 .Projects {
   display: flex;
+  /* justify-content: center; */
 }
+
+.Projects2 {
+  display: flex;
+  justify-content: center;
+  /* font-size: 2em; */
+}
+#header1,
+#header2 {
+  padding-right: 650px;
+  color: black;
+}
+
 .LegantStore {
   background-image: url('../images/CaptureStore.PNG');
   height: 450px;
@@ -113,6 +127,30 @@ p {
   height: 450px;
   width: 720px;
   margin: 20px;
+}
+
+.fa-envelope,
+.fa-linkedin-square,
+.fa-github-alt {
+  color: white;
+  padding: 10px;
+}
+
+.phone {
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.boxe1 {
+  background-color: white;
+  color: black;
+  width: 600px;
+  margin-left: 450px;
+  border-radius: 30px;
+  padding: 40px;
 }
 
 @keyframes App-logo-spin {

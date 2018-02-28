@@ -1,21 +1,12 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
-// import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
+import ShoppingBag from 'react-icons/lib/fa/shopping-bag';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p> */}
-
         <div className="Main-container">
           <section id="about">
             <div className="SectionAbout">
@@ -23,6 +14,13 @@ class App extends Component {
               <div className="Introduction">
                 <p id="Name">LEAH DOMBROVSKY</p>
                 <p id="Occupation">Web Developer</p>
+                <p class="boxe1">
+                  {' '}
+                  -Radiologyst from Azerbaijan<br />
+                  -RPG Programmer<br />
+                  -My new passion and hopefully new career is Web Design<br />
+                  LET'S JORNEY BEGIN!!!
+                </p>
               </div>
             </div>
           </section>
@@ -98,14 +96,54 @@ class App extends Component {
               <p id="Projects">PROJECTS</p>
               <div className="Projects">
                 <div className="LegantStore" />
+
                 <div className="Groupii" />
+              </div>
+              <div className="Projects2">
+                <h1 id="header1">
+                  <a href="https://leah-elegant-store-spchmbivkx.now.sh/">
+                    Live Site
+                  </a>
+                </h1>
+                <h1 id="header2">
+                  <a href="http://www.groupii.fun/">Live Site</a>
+                </h1>
               </div>
             </div>
           </section>
           <section id="contact">
             <div className="SectionContact">
               <div className="Contact">
-                <p id="Contact">CONTACT</p>
+                <p id="Contact">CONTACT ME</p>
+                {/* <h1>Let's Get In Touch!</h1> */}
+                <div classname="email">
+                  <a href="mailto:leahliya59@gmail.com">
+                    <i class="fa fa-envelope fa-4x mb-4" aria-hidden="true" />
+                  </a>
+                  <h1>Email</h1>
+                </div>
+
+                <div classname="linkedin">
+                  <a href="https://www.linkedin.com/in/leah-dombrovsky-1a0346/">
+                    <i
+                      class="fa fa-linkedin-square fa-4x mb-4"
+                      aria-hidden="true"
+                    />
+                  </a>
+                  <h1>LinkedIn</h1>
+                </div>
+
+                <div classname="github">
+                  <a href="https://github.com/LeahDombrosky">
+                    <i class="fa fa-github-alt fa-4x mb-4" aria-hidden="true" />
+                  </a>
+                  <h1>Github</h1>
+                </div>
+
+                <div className="phone">
+                  <i class="fa fa-phone fa-2x mb-2" aria-hidden="true" />
+                  <span>214-641-7480</span>
+                </div>
               </div>
             </div>
           </section>
