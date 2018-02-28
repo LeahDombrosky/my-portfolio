@@ -11,7 +11,8 @@ ul {
 ul,
 li {
   list-style-type: none;
-  padding-left: 100px;
+  padding-top: 10px;
+  padding-left: 200px;
   /* margin-left: 50px; */
   /* font: 1.5em; */
   font-size: 25px;
