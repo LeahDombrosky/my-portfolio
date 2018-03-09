@@ -28,6 +28,9 @@ class Navbar extends Component {
             <a class="nav-link js-scroll-trigger" href="#projects">
               <li>PROJECTS</li>
             </a>
+            <a class="nav-link js-scroll-trigger" href="#about">
+              <li>ABOUT ME</li>
+            </a>
             <a class="nav-link js-scroll-trigger" href="#contact">
               <li>CONTACT ME</li>
             </a>

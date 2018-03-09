@@ -8,19 +8,19 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Main-container">
-          <section id="about">
-            <div className="SectionAbout">
+          <section id="intro">
+            <div className="SectionIntro">
               <Navbar />
               <div className="Introduction">
                 <p id="Name">LEAH DOMBROVSKY</p>
                 <p id="Occupation">Web Developer</p>
-                <p class="boxe1">
+                {/* <p class="boxe1">
                   {' '}
                   -Radiologyst from Azerbaijan<br />
                   -RPG Programmer<br />
                   -My new passion and hopefully new career is Web Design<br />
                   LET'S JORNEY BEGIN!!!
-                </p>
+                </p> */}
               </div>
             </div>
           </section>
@@ -109,6 +109,18 @@ class App extends Component {
                   <a href="http://www.groupii.fun/">Live Site</a>
                 </h1>
               </div>
+            </div>
+          </section>
+          <section id="about">
+            <div className="SectionAbout">
+              <p id="About">ABOUT</p>
+              <p class="boxe1">
+                {' '}
+                -Radiologyst from Azerbaijan<br />
+                -RPG Programmer<br />
+                -My new passion and hopefully new career is Web Design<br />
+                LET'S JORNEY BEGIN!!!
+              </p>
             </div>
           </section>
           <section id="contact">
